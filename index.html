@@ -4,77 +4,82 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <div class="t_b">
-        <h2 id="Title_Heading">NEWSFEED</h2>
-        <h6 id="Title_Desc">Yet another newsfeed</h6>
-    </div>
 </head>
 
+
 <body>
-    <div>
-    <div class=post>
-        <div class="img"><img
-                src="https://dbjk47w5ep2rm.cloudfront.net/blog/wp-content/uploads/2015/03/Screen-Shot-2015-03-19-at-12.16.37-PM.png"
-                height="200" width="200"></div>
-        <div class="Post_Body">
-            <h2 class="Post_Title">Title One</h2>
-            <h6 class="Post_Title_Desc">Posted on 07 July # Category One</h6>
-            <p class="Post_Desc">Our teams of technologists, strategists and designers deliver powerful digital
-                experiences. We specialize in 11 industries in 25 countries, delivering innovative solutions to our
-                customers’ most challenging problems. The numbers speak for themselves.</p>
-            <btn class="Post_Btn">Continue Reading</btn>
+    <header>
+        <div class="t_b">
+            <h2 id="Title_Heading">NEWSFEED</h2>
+            <h6 id="Title_Desc">Yet another newsfeed</h6>
         </div>
-    </div>
-    <div class=post>
-        <div class="img"><img
-                src="https://dbjk47w5ep2rm.cloudfront.net/blog/wp-content/uploads/2015/03/Screen-Shot-2015-03-19-at-12.16.37-PM.png"
-                height="200" width="200"></div>
-        <div class="Post_Body">
-            <h2 class="Post_Title">Title Two</h2>
-            <h6 class="Post_Title_Desc">Posted on 07 July # Category Two</h6>
-            <p class="Post_Desc">Our teams of technologists, strategists and designers deliver powerful digital
-                experiences. We specialize in 11 industries in 25 countries, delivering innovative solutions to our
-                customers’ most challenging problems. The numbers speak for themselves.</p>
-            <btn class="Post_Btn">Continue Reading</btn>
+    </header>
+    <div class="wrapper">
+        <div class=post>
+            <div class="img"><img
+                    src="https://dbjk47w5ep2rm.cloudfront.net/blog/wp-content/uploads/2015/03/Screen-Shot-2015-03-19-at-12.16.37-PM.png"
+                    height="200" width="200"></div>
+            <div class="Post_Body">
+                <h2 class="Post_Title">Title One</h2>
+                <h6 class="Post_Title_Desc">Posted on 07 July # Category One</h6>
+                <p class="Post_Desc">Our teams of technologists, strategists and designers deliver powerful digital
+                    experiences. We specialize in 11 industries in 25 countries, delivering innovative solutions to our
+                    customers’ most challenging problems. The numbers speak for themselves.</p>
+                <btn class="Post_Btn">Continue Reading</btn>
+            </div>
+        </div>
+        <div class=post>
+            <div class="img"><img
+                    src="https://dbjk47w5ep2rm.cloudfront.net/blog/wp-content/uploads/2015/03/Screen-Shot-2015-03-19-at-12.16.37-PM.png"
+                    height="200" width="200"></div>
+            <div class="Post_Body">
+                <h2 class="Post_Title">Title Two</h2>
+                <h6 class="Post_Title_Desc">Posted on 07 July # Category Two</h6>
+                <p class="Post_Desc">Our teams of technologists, strategists and designers deliver powerful digital
+                    experiences. We specialize in 11 industries in 25 countries, delivering innovative solutions to our
+                    customers’ most challenging problems. The numbers speak for themselves.</p>
+                <btn class="Post_Btn">Continue Reading</btn>
+            </div>
+        </div>
+
+        <div class=post>
+            <div class="img"><img
+                    src="https://dbjk47w5ep2rm.cloudfront.net/blog/wp-content/uploads/2015/03/Screen-Shot-2015-03-19-at-12.16.37-PM.png"
+                    height="200" width="200"></div>
+            <div class="Post_Body">
+                <h2 class="Post_Title">Title Three</h2>
+                <h6 class="Post_Title_Desc">Posted on 07 July # Category One</h6>
+                <p class="Post_Desc">Our teams of technologists, strategists and designers deliver powerful digital
+                    experiences. We specialize in 11 industries in 25 countries, delivering innovative solutions to our
+                    customers’ most challenging problems. The numbers speak for themselves.</p>
+                <btn class="Post_Btn">Continue Reading</btn>
+            </div>
         </div>
     </div>
 
-    <div class=post>
-        <div class="img"><img
-                src="https://dbjk47w5ep2rm.cloudfront.net/blog/wp-content/uploads/2015/03/Screen-Shot-2015-03-19-at-12.16.37-PM.png"
-                height="200" width="200"></div>
-        <div class="Post_Body">
-            <h2 class="Post_Title">Title Three</h2>
-            <h6 class="Post_Title_Desc">Posted on 07 July # Category One</h6>
-            <p class="Post_Desc">Our teams of technologists, strategists and designers deliver powerful digital
-                experiences. We specialize in 11 industries in 25 countries, delivering innovative solutions to our
-                customers’ most challenging problems. The numbers speak for themselves.</p>
-            <btn class="Post_Btn">Continue Reading</btn>
-        </div>
+    <div class="sidePanel">
+        <h3>Select Category</h3>
+        <select name="drop1" id="Select1">
+            <option value="1">All</option>
+            <option value="2">Category 1</option>
+            <option value="3">Category 2</option>
+        </select>
+
+        <h3>Subscribe</h3>
+        <form action="#">
+            First name: <br><input class="form" type="text" name="eId">
+            <input class="btn" type="submit" value="Subscribe">
+        </form>
     </div>
-</div>
 
-<div class="sidePanel">
-  <h3>Select Category</h3>
-  <select name="drop1" id="Select1">
-        <option value="1">All</option>
-        <option value="2">Category 1</option>
-        <option value="3">Category 2</option> 
-    </select>
+    <footer class="footer">
 
-    <h3>Subscribe</h3>
-    <form action="#">
-        First name: <br><input class="form" type="text" name="eId">
-        <input class="btn" type="submit" value="Subscribe">
-    </form>  
-</div>
+        NewsFeed 2019
+
+    </footer>
 
 </body>
 
-<footer class="footer">
 
-    NewsFeed 2019
-
-</footer>
 
 </html>
