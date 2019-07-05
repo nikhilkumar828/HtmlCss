@@ -1,0 +1,50 @@
+body { margin:0; }
+
+.t_b{
+    background: rgb(4, 47, 97);
+    color: white;
+    font-family: Arial;
+    height: 80px;
+    margin :0px; 
+    
+}
+
+#Title_Heading{
+    position: absolute;
+    top : 13px;
+    margin-left: 20px;
+}
+
+#Title_Desc{
+    position: absolute;
+    left : 200px;
+    top : 17px;
+    font-family: initial;
+}
+
+.img{
+    width : 200px;
+    
+}
+
+.Post_Body{
+    position : relative;
+    left : 250px;
+    top : -220px;
+}
+.post{
+    height : 220px;
+    width : 60%;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-bottom: 1px solid lightgrey;
+    
+}
+
+.footer{
+    background: rgb(4, 47, 97);
+    color: white;
+    font-family: Arial;
+    height: 50px;
+    text-align: center;
+}
