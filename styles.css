@@ -29,13 +29,12 @@ body {
 }
 
 .postBody{
-    position : relative;
-    left : 250px;
-    top : -220px;
+    padding-left : 40px;
+    padding-top : 20px;
 }
 .post{
     height : 240px;
-    width : 70%;
+    width : 95%;
     margin-left: 15px;
     margin-top: 10px;
 }
@@ -80,14 +79,6 @@ body {
     border:0;
 }
 
-.rightFloat{
-    float: right;
-}
-
-.leftFloat{
-    float: left;
-}
-
 .flxMain{
 display: flex;
 flex-direction: row;
@@ -98,7 +89,7 @@ flex-direction: row;
     flex-direction: column;
 }
 
-.wrapper{
+.allPosts{
     width : 90%;
 }
 
@@ -108,7 +99,13 @@ flex-direction: row;
 }
 
 .divideLine{
-    position: relative;
-    top :-200px;
-    width : 130%;
+    margin-left : 15px;
+    width : 95%;
+}
+
+.marginForPost{
+    margin-top:5px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
