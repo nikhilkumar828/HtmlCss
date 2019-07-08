@@ -3,7 +3,7 @@ body {
     font-family: Arial;
 }
 
-.t_b{
+.titleMain{
     background: rgb(4, 47, 97);
     color: white;
     height: 80px;
@@ -12,14 +12,14 @@ body {
 
 .titleHeading{
     position: absolute;
-    top : 13px;
+    top : 6px;
     margin-left: 20px;
 }
 
 .titleDesc{
     position: absolute;
-    left : 200px;
-    top : 17px;
+    left : 185px;
+    top : 8px;
     font-family: initial;
 }
 
@@ -38,8 +38,6 @@ body {
     width : 70%;
     margin-left: 15px;
     margin-top: 10px;
-    border-bottom: 1px solid lightgrey;
-    
 }
 
 .footer{
@@ -59,6 +57,7 @@ body {
 
 .lstBox{
     width : 100%;
+    height : 25px;
 }
 .form{
     width : 71%;
@@ -106,4 +105,10 @@ flex-direction: row;
 .footerContent{
     position: relative;
     top:17px;
+}
+
+.divideLine{
+    position: relative;
+    top :-200px;
+    width : 130%;
 }
