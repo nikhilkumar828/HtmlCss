@@ -1,0 +1,31 @@
+Style guide :  https://google.github.io/styleguide/htmlcssguide.html 
+ 
+Different Layouts : https://www.w3schools.com/css/css_website_layout.asp 
+ 
+Instead of position : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns_flex 
+ 
+Points : 
+ 
+1) class names should be camelCase and specific to the content 
+ 
+2) all the HTML elements in the body tag including header and footer 
+ 
+3) always add the meta tag, title tag in head. 
+ 
+4) Don't use inline styling 
+ 
+5) try to use classes instead of Id's for selectors 
+ 
+6) Refactor the whole code using Reusability 
+ 
+7) at start of CSS remove margin , border and change font family to reflect in the whole page  
+ 
+8) try to use multiple classes of CSS to the same tag instead of writing same property many times 
+ 
+9) Use flex, grid , box-model , etc. 
+ 
+ 
+ 
+We have to use HTML semantic tags for search engine optimization - https://www.bitdegree.org/learn/html5-semantic-tags 
+ 
+To fix any element give the element above it min-height 
